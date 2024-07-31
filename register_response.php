@@ -4,8 +4,8 @@
 header('Content-Type: application/json');
 $data = json_decode(file_get_contents('php://input'), true);
 
-// Process registration response here (e.g., store public key and credential ID)
+// Process registration response here
+// For example, save the public key and credential ID to the database
 
-// Dummy response
-echo json_encode(['success' => true]);
+echo json_encode(['success' => true]); // Ensure a successful response
 ?>
