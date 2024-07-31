@@ -1,0 +1,86 @@
+/* Global styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+    background-image: url('bio.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Container to center the content */
+.container {
+    max-width: 400px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #007BFF;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Year selection buttons */
+.year-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.year-btn:hover {
+    background-color: #218838; /* Darker green color */
+}
+
+/* Footer styles */
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer p {
+    color: brown;
+    font-size: 14px;
+    margin: 0;
+}
